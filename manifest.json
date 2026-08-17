@@ -12,7 +12,7 @@
       "name": "api_token",
       "title": "Real-Debrid API Token",
       "type": "string",
-      "default": "your realdebrid api key",
+      "default": "",
       "description": "Indsæt din API-nøgle fra real-debrid.com/apitoken"
     }
   ],
