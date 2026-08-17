@@ -1,0 +1,38 @@
+{
+  "name": "gopeed-realdebrid",
+  "title": "Real-Debrid Unrestrictor",
+  "author": "Custom",
+  "version": "1.0.0",
+  "description": "Låser automatisk hoster-links op via Real-Debrid API",
+  "icon": "https://real-debrid.com/favicon.ico",
+  "homepage": "https://real-debrid.com",
+  "repository": "https://github.com/dit-brugernavn/gopeed-realdebrid",
+  "entry": "index.js",
+  "settings": [
+    {
+      "name": "api_token",
+      "title": "Real-Debrid API Token",
+      "type": "string",
+      "default": "QYNKH3M4WE4HA542ILTOAIKCOMVVS23UXVBUXVVID3HA2XAQXSPQ",
+      "description": "Indsæt din API-nøgle fra real-debrid.com/apitoken"
+    }
+  ],
+  "scripts": [
+    {
+      "event": "onResolve",
+      "match": {
+        "urls": [
+          "*://*.rapidgator.net/file/*",
+          "*://*.ddownload.com/*",
+          "*://*.katfile.com/*",
+          "*://*.turbobit.net/*",
+          "*://*.nitroflare.com/view/*",
+          "*://*.1fichier.com/*",
+          "*://*.filestore.me/*",
+          "*://*.fikper.com/*",
+          "*://*.mega.nz/file/*"
+        ]
+      }
+    }
+  ]
+}
