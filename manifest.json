@@ -1,12 +1,11 @@
 {
-  "name": "gopeed-realdebrid",
+  "name": "realdebrid-unrestrictor",
   "title": "Real-Debrid Unrestrictor",
   "author": "Custom",
   "version": "1.0.0",
   "description": "Låser automatisk hoster-links op via Real-Debrid API",
   "icon": "https://real-debrid.com/favicon.ico",
   "homepage": "https://real-debrid.com",
-  "repository": "https://github.com/dit-brugernavn/gopeed-realdebrid",
   "entry": "index.js",
   "settings": [
     {
