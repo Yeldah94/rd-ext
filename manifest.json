@@ -2,7 +2,7 @@
   "name": "realdebrid-unrestrictor",
   "title": "Real-Debrid Unrestrictor",
   "author": "Custom",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Låser automatisk hoster-links op via Real-Debrid API",
   "icon": "https://real-debrid.com/favicon.ico",
   "homepage": "https://real-debrid.com",
@@ -21,15 +21,14 @@
       "event": "onResolve",
       "match": {
         "urls": [
-          "*://*.rapidgator.net/file/*",
-          "*://*.ddownload.com/*",
-          "*://*.katfile.com/*",
-          "*://*.turbobit.net/*",
-          "*://*.nitroflare.com/view/*",
+          "*://1fichier.com/*",
           "*://*.1fichier.com/*",
-          "*://*.filestore.me/*",
-          "*://*.fikper.com/*",
-          "*://*.mega.nz/file/*"
+          "*://rapidgator.net/*",
+          "*://*.rapidgator.net/*",
+          "*://ddownload.com/*",
+          "*://*.ddownload.com/*",
+          "*://mega.nz/*",
+          "*://*.mega.nz/*"
         ]
       }
     }
